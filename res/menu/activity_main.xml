@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/main_action_bar_add"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_add" />
+    
+    <item
+        android:id="@+id/main_action_bar_search"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_search" />
+    
+    <item android:id="@+id/main_action_bar_edit"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_edit"/>
+    	
+    <item android:id="@+id/file"
+          android:title="File" >
+        <!-- "file" submenu -->
+        <menu>
+            <item android:id="@+id/create_new"
+                  android:title="Create new" />
+            <item android:id="@+id/open"
+                  android:title="Open" />
+        </menu>
+    </item>
+</menu>
